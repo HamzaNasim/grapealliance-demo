@@ -1,0 +1,90 @@
+.productDetailMainContainer {
+  width: 100%;
+  height: 100vh;
+}
+.productDetailItemContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.productDetailItemContainer-leftContainer {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.productDetailItemContainer-leftContainer img {
+  width: 80%;
+  aspect-ratio: 1;
+}
+.productDetailItemContainer-rightContainer {
+  width: 60%;
+  margin: 100px 0;
+}
+.productDetailItemContainer-rightContainer-labelContainer {
+  width: 100%;
+  padding: 0px 20px;
+}
+.productDetailItemContainer-rightContainer-labelContainer h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: rgba(50,50,50);
+  font-style: italic;
+}
+.productDetailItemContainer-rightContainer-descContainer {
+  width: 90%;
+  margin: auto;
+}
+.productDetailItemContainer-rightContainer-descContainer h3 {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(50,50,50);
+}
+.productDetailItemContainer-rightContainer-descContainer h1{
+    font-size: 20px;
+    margin: 0;
+    font-weight: 400;
+}
+.productDetailItemContainer-rightContainer-descContainer p{
+    text-decoration: none;
+    color: blueviolet;
+    cursor: pointer;
+
+}
+.productDetailItemContainer-rightContainer-priceContainer{
+    width: 90%;
+    margin: auto;
+}
+.productDetailItemContainer-rightContainer-priceContainer h3{
+    font-size: 28px;
+    font-weight: 600;
+    color: rgba(50,50,50);
+}
+
+.productDetailItemContainer-rightContainer-buttonContainer{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+.productDetailItemContainer-rightContainer-buttonContainer button{
+    width: 150px;
+    display: flex;
+    margin: 0px 20px;
+    justify-content: center;
+    border-radius: 5px;
+    font-weight: 600;
+    color: rgb(36, 1, 1);
+    border: rgb(36, 1, 1) 2px solid;
+    align-items: center;
+    height: 40px;
+    transition: 0.5s ease;
+}
+.productDetailItemContainer-rightContainer-buttonContainer button:hover{
+    color: white;
+    background-color: rgb(36, 1, 1);
+}
